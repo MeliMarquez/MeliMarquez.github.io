@@ -1,0 +1,172 @@
+@font-face { font-family: Acari; src: url('../resources/font/acari-sans.vf-regular.ttf'); }
+
+/* Generals */ 
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.background2{
+  display: inherit;
+  background-image: linear-gradient(to bottom, #fbedc6 , #994d95);
+  width: 100vw;
+  height: 100vh;
+}
+
+.logosection2{
+  display: inherit;
+  height: 50vh;
+  position: relative;
+}
+
+.centerlogo2{
+  display: inherit;
+  position: absolute;
+  height: 50vh;
+  width: 100vw;
+  margin-top: 15vh;
+  text-align: center;
+  scale: 140%;
+}
+
+.centerlogo2 h1{
+  display: inherit;
+  letter-spacing: 0.4vw;
+  font-family: 'Comfortaa';
+  font-size: 2.5vw;
+} 
+
+.centerlogo2 p{
+  display: inherit;
+  letter-spacing: 0.4vw;
+  font-family: 'Acari';
+  font-size: 2vw;
+}
+
+.centerlogo2 img{
+  width: 15vw;
+  margin-bottom: 4vh;
+}
+
+
+.contactsection2{
+  display: inherit;
+  height: 45vh;
+  position: relative;
+}
+
+.centercontact2{ 
+  display: inherit;
+  position: absolute;
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.data12{
+  display: inherit;
+}
+
+.data22{
+  display: inherit;
+  margin-top: 3vh;
+}
+
+.centercontact2 img{
+  display: none;
+  width: 4%;
+  margin-right: 2%;
+}
+.centercontact2 a{
+  display: inherit;
+  color: #fbedc6;
+  font-family: 'Acari';
+  font-size: 3vw;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.footer2{
+  display: inherit;
+  background-color: #5e4b5eAA;
+  text-align: center;
+  height: 5vh;
+}
+.footer2 p{
+  display: inherit;
+  padding-top: 1.5vh;
+  color: #fbedc6;
+  font-family: 'Acari';
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+}
+.footer2 a{
+  display: inherit;
+  color: #fbedc6;
+}
+
+
+/* Sections */
+.section{
+  display: none;
+}		
+
+.background{
+  display: none;
+}
+
+.logosection{
+  display: none;
+}
+
+.centerlogo{
+  display: none;
+}
+
+.centerlogo h1{
+  display: none;
+} 
+
+.centerlogo p{
+  display: none;
+}
+
+.centerlogo img{
+  display: none;
+}
+
+.contactsection{
+  display: none;
+}
+
+.centercontact{  
+  display: none;
+}
+
+.data1{
+  display: none;
+}
+
+.data2{
+  display: none;
+}
+
+.centercontact img{
+  display: none;
+}
+
+.centercontact a{
+  display: none;
+}
+
+.footer{
+  display: none;
+}
+
+.footer p{
+  display: none;
+}
+
+.footer a{
+  display: none;
+}
