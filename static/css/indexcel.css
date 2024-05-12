@@ -9,7 +9,7 @@ body, h1, p {
 .background2{
   display: inherit;
   background-image: linear-gradient(to bottom, #fbedc6 , #994d95);
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -34,6 +34,7 @@ body, h1, p {
   letter-spacing: 0.4vw;
   font-family: 'Comfortaa';
   font-size: 2.5vw;
+  color: black;
 } 
 
 .centerlogo2 p{
@@ -41,6 +42,7 @@ body, h1, p {
   letter-spacing: 0.4vw;
   font-family: 'Acari';
   font-size: 2vw;
+  color: black;
 }
 
 .centerlogo2 img{
